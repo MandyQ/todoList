@@ -13,3 +13,4 @@ render(
   </Provider>,
   document.getElementById('root')
 )
+// Provider 组件包装器 用于包裹整个应用

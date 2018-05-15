@@ -11,7 +11,7 @@ const TodoList = ({todos, onTodoClick}) => (
 	</ul>
 )
 
-TodoList.PropTypes = {
+TodoList.propTypes = {
 	//arrayOf 某种类型的数组
 	todos:PropTypes.arrayOf(
 		//shape一个特定形式的对象
